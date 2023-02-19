@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0pNAKU1wsOYOYxVgdrW4v2HIyy62gDP-0bQ&usqp=CAU);
+    background-size: cover;
+}
+h1{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.promise{
+    padding: 30px 10px;
+    border: solid;
+    border-image: linear-gradient(rgb(235, 30, 232), rgb(236, 16, 165), rgb(53, 185, 243)) 1;
+    border-width: 4px;
+    margin: 10px 800px 20px 0;
+}
+.disclaimer{
+    text-align: center;
+    position: bottom;
+    font-size: 1px;
+}
+
+.description{
+    
+    padding: 30px 10px;
+    border: solid;
+    border-image: linear-gradient(rgb(235, 30, 232), rgb(236, 16, 165), rgb(53, 185, 243)) 1;
+    border-width: 4px;
+    margin: 10px 800px 20px 0;
+    
+}
+
+.student1{
+    object-position: right top;
+    border: solid;
+    border-image: linear-gradient(rgb(235, 30, 232), rgb(236, 16, 165), rgb(53, 185, 243)) 1;
+    border-width: 4px;
+    margin-left: 880px;
+    width: 550px;
+    height : 420px;
+}
+
+.top-button{
+    font-family: 'Barlow', sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+}
+.top-button:visited{
+    color: black;
+}
+#main-hyperlinks{
+    border: solid;
+    border-image: linear-gradient(rgb(235, 30, 232), rgb(236, 16, 165), rgb(53, 185, 243)) 1;
+    border-width: 4px;
+    
+}
+
+
+
+th{
+    font-size: 30px;
+    text-align: center;
+    border: solid;
+    border-image: linear-gradient(rgb(235, 30, 232), rgb(236, 16, 165), rgb(53, 185, 243)) 1;
+    border-width: 4px;
+    font-family: 'Barlow', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    font-size: 15px;
+    text-align: center;
+    border: solid;
+    border-image: linear-gradient(rgb(235, 30, 232), rgb(236, 16, 165), rgb(53, 185, 243)) 1;
+    border-width: 4px;
+    font-family: 'Barlow', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.new-task{
+    text-align: center;
+    
+}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<h1>To Do List</h1>
+
+<div id= 'task-section'>
+    <table>
+        <form action="POST">
+        <tr>
+            <th>Task Name</th>
+            <th>Task Description</th>
+            <th>Completed?</th>
+        </tr>
+        {% for task in tasks %}
+        <tr>
+            <td>{{task.task_name}}</td>
+            <td>{{task.task_description}}</td>
+            <td>
+            <label for="completed"></label>
+            <input type="checkbox" name="completed">
+            </td>
+        </tr>
+        
+        {% endfor %}
+    </table>
+    </form>
+</div>
+<div class="new-task">
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button>Add Task</button>
+    </form>
+    
+</div>
+{% endblock content %}
